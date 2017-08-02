@@ -1,10 +1,16 @@
 ---
 tags: []
 layout: input_right
-editor: code
+editor: single_choice
 type: problem
 extra_visible: false
-language: 
+language: text
 teacher_info: 
 manual_evaluation: false
-choices: []
+choices:
+- value: Indica el número de elementos que contendrá el ArrayList
+  checked: false
+- value: Indica el tipo de los elementos que contendrá el ArrayList
+  checked: true
+- value: Indica los elementos que contendrá el ArrayList
+  checked: false
