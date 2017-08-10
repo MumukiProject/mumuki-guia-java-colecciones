@@ -15,7 +15,15 @@ Ah, algo más: en realidad no es necesario indicar explícitamente el tipo **en 
 ¿Eh, qué? :dizzy_face: Un ejemplo vale más que mil palabras:
 
 ```java
+// notá que en la variable, 
+// el parámetro de tipo Integer es obligatorio...
+//  |
+//  V
 ArrayList<Integer> notas = new ArrayList<>();
+//                                      ^
+//                                      |
+// ...pero en la instanciación podemos omitirlo
+
 ```
 
 ¿Más conciso, no? :smile:
