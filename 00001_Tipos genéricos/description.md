@@ -11,18 +11,18 @@ notas.push(4)
 
 ```java
 ArrayList<Integer> notas = new ArrayList<Integer>();
-notas.put(4);
-notas.put(8);
-notas.put(4);
+notas.add(4);
+notas.add(8);
+notas.add(4);
 ```
 
 > ¿Notaste algo extraño en el tipo de `ArrayList` y en su instanciación? Comparalo con el siguiente código...
 > 
 > ```java
 > ArrayList<String> letra = new ArrayList<String>();
-> letra.put("Remontar");
-> letra.put("el barrilete");
-> letra.put("en esta tempestad");
+> letra.add("Remontar");
+> letra.add("el barrilete");
+> letra.add("en esta tempestad");
 > ```
 >
 > ...y contanos qué significa lo que está entre `<` y `>`. 
