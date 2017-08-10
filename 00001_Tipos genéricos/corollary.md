@@ -17,8 +17,8 @@ Ah, algo más: en realidad no es necesario indicar explícitamente el tipo **en 
 ```java
 // notá que en la variable, 
 // el parámetro de tipo Integer es obligatorio...
-//  |
-//  V
+//           |
+//           V
 ArrayList<Integer> notas = new ArrayList<>();
 //                                      ^
 //                                      |
