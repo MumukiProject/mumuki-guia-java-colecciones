@@ -10,7 +10,11 @@ numeros :: [Int]
 numeros = [4, 8, 15, 16, 23, 42]
 ```
 
-Ah, algo más: en realidad no es necesario indicar explícitamente el tipo **en la instanciación**, sino sólo **en la variable**. Un ejemplo vale más que mil palabras:
+Ah, algo más: en realidad no es necesario indicar explícitamente el tipo **en la instanciación**, sino sólo **en la variable**. 
+
+¿Eh, qué? :dizzy_face: 
+
+Un ejemplo vale más que mil palabras:
 
 ```java
 ArrayList<Integer> notas = new ArrayList<>();
