@@ -4,7 +4,7 @@
 [ 4, 5, 6 ]
 ```
 
-En Java, sin embargo, la cosa no es tan simple. En parte, porque tenemos más opciones, y **más flexibilidad suele significar mayor complejidad**. Y en parte porque Java, es, ejem, un poco burocrático. Por ejemplo, el codigo anterior en Java lo escribiremos así: 
+En Java, sin embargo, la cosa no es tan simple. En parte, porque tenemos más opciones, y **más flexibilidad suele significar mayor complejidad**. Por también porque Java, es, ejem, un poco burocrático. Por ejemplo, el codigo anterior en Java lo escribiremos así: 
 
 ```java
 Arrays.asList(4, 5, 6);
