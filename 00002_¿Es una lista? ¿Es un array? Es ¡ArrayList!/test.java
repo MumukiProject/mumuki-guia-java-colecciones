@@ -12,3 +12,13 @@ public void si_agregamos_tres_titulos_el_tamanio_es_3() {
   Assert.assertEquals(3, alejandria.tamanio());
 }
 
+
+@Test
+public void si_agregamos_dos_titulos_repetidos_el_tamanio_es_1() {
+  Biblioteca alejandria = new Biblioteca();
+  Titulo unTitulo = new Titulo();
+  alejandria.incorporar(unTitulo);
+  alejandria.incorporar(unTitulo);
+  Assert.assertEquals(3, alejandria.tamanio());
+}
+
