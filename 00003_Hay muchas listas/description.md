@@ -5,7 +5,7 @@ LinkedList<Articulo> listaDeCompras = new LinkedList<>();
 ```
 ..., que están pensadas para agregar elementos al principio (de forma similar a las listas de Haskell) mediante `addFirst(unElemento)` o incluso al final, mediante `addLast(unElemento)`.
 
-> A un centro de atención al cliente todos los días llegan decenas de reclamos, los cuales se atienden por orden de llegada. La excepción son algunos reclamos prioritarios, que se agregan por delante de todos los otros. 
+> A un centro de atención al cliente llegan decenas de reclamos, los cuales se atienden por orden de llegada. La excepción son algunos reclamos prioritarios, que se agregan por delante de todos los otros. 
 > 
 > Modelá un `CentroDeAtencion` de forma que se pueda hacer: 
 > 
