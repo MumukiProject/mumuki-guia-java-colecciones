@@ -4,7 +4,7 @@ expectations:
   binding: "*"
 - binding: "*"
   inspection: Not:UsesIf
-- binding: "*"
+- binding: CentroDeAtencion
   inspection: DeclaresMethod:aceptarReclamo
 - binding: "*"
   inspection: Uses:addFirst

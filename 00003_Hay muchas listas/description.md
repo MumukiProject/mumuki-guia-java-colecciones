@@ -5,15 +5,17 @@ LinkedList<Articulo> listaDeCompras = new LinkedList<>();
 ```
 ..., que están pensadas para agregar elementos al principio (de forma similar a las listas de Haskell) mediante `addFirst(unElemento)` o incluso al final, mediante `addLast(unElemento)`.
 
-> A un centro de atención al cliente todos los días llegan decenas de reclamos, los cuales se atienden por orden de llegada. La excepción son algunos reclamos especiales, llamados prioritarios, que se agregan por delante de todos los otros reclamos. 
+> A un centro de atención al cliente todos los días llegan decenas de reclamos, los cuales se atienden por orden de llegada. La excepción son algunos reclamos prioritarios, que se agregan por delante de todos los otros. 
 > 
-> Modelá el centro de atención de forma que se pueda hacer: 
+> Modelá un `CentroDeAtencion` de forma que se pueda hacer: 
 > 
 > ```java
-> centro.aceptarReclamo();
-> centro.aceptarReclamo();
-> centro.aceptarReclamo();
-> centro.aceptarReclamo();
+> centro.aceptarReclamo(faltaUnaBirome);
+> centro.aceptarReclamo(corteGeneralDeServicio);
+> centro.aceptarReclamo(elMonitorAndaMal);
+> centro.aceptarReclamo(incendioEnPlanta);
+> centro.getReclamos(); 
+> // devuelve incendioEnPLanta, corteGeneralDeServicio, faltaUnaBirome y elMontorAndaMal, en ese orden
 > ```
 > 
 > Y como reto adicional: ¡no uses `if`s! :muscle:
