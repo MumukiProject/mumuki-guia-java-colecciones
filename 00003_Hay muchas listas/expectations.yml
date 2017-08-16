@@ -10,3 +10,5 @@ expectations:
   inspection: Uses:addFirst
 - binding: "*"
   inspection: Uses:addLast
+- binding: "*"
+  inspection: Not:UsesMethodOverloading
