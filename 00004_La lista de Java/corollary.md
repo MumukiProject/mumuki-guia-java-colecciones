@@ -27,5 +27,6 @@ Torre  baraddur = new Torre(masPisos);
 Esto es bueno porque:
 
   * nos ayuda a tener que pensar menos: ¿uso una lista u otra? ¡da lo mismo!;
-  * y nos da más flexibilidad: tanto si lo que tenía era un `LinkedList<Piso>` o un `ArrayList<Piso>`, puedo usarlo indistintamente.
+  * y nos da más flexibilidad: tanto si lo que tenía era un `LinkedList<Piso>` o un `ArrayList<Piso>`, podés usarlo indistintamente.
 
+:warning: De todas formas, es cierto que en algunos casos usar una u otra hará que, por ejemplo, tu programa  se ejecute más rápido. Pero por ahora eso no va a preocuparnos
