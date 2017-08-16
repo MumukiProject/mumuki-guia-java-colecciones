@@ -4,3 +4,9 @@ expectations:
   binding: "*"
 - binding: "*"
   inspection: Not:UsesIf
+- binding: "*"
+  inspection: DeclaresMethod:aceptarReclamo
+- binding: "*"
+  inspection: Uses:addFirst
+- binding: "*"
+  inspection: Uses:addLast
