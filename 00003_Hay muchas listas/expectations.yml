@@ -2,3 +2,5 @@
 expectations:
 - inspection: UsesStaticPolymorphism
   binding: "*"
+- binding: "*"
+  inspection: Not:UsesIf
