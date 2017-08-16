@@ -1,1 +1,1 @@
-TODO  Arrays.asList
+Además, de `LinkedList` y `ArrayList`
