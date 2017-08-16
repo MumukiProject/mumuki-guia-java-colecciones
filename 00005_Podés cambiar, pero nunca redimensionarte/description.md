@@ -7,7 +7,7 @@ List<Piso> pisos = Arrays.asList(primerPiso, segundoPiso, tercerPiso);
 
 Lo particular de este método es que crea una lista que no es instancia de `LinkedList` ni `ArrayList` (¡ahá, otro buen motivo para abstraernos del tipo de lista! :sunglasses:), sino que es una clase que **no permite agregar ni quitar elementos**. 
 
-Pero claro, si no pensás agregar elementos a la lista una vez creada, ésto no es un problema. Por ejemplo, por más que remodeles los pisos es poco probable que le agregues nuevos a una torre :stuck_out_tongue:.
+Pero claro, si no pensás redimensionarla una vez creada, ésto no es un problema. Por ejemplo, por más que remodeles los pisos es poco probable que le agregues nuevos a una torre :stuck_out_tongue:.
 
 > Justamente lo que sí queremos hacer es:
 > 
