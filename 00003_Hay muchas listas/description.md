@@ -1,6 +1,4 @@
-Como en todo [_shonen_](https://es.wikipedia.org/wiki/Sh%C5%8Dnen), siempre que creemos que conocemos a nuestro oponente, descubrimos que no es el único. 
-
-Así son también las listas de Java: ¡hay muchas! Por ejemplo, también contamos con las `LinkedList`...
+Como en todo [_shonen_](https://es.wikipedia.org/wiki/Sh%C5%8Dnen), siempre que creemos que conocemos a nuestro oponente, descubrimos que no es el único. Así son también las listas de Java: ¡hay muchas! Por ejemplo, también contamos con las `LinkedList`...
 
 ```java
 LinkedList<Articulo> listaDeCompras = new LinkedList<>();
@@ -17,4 +15,6 @@ LinkedList<Articulo> listaDeCompras = new LinkedList<>();
 > centro.aceptarReclamo();
 > centro.aceptarReclamo();
 > ```
+> 
+> Y como reto adicional: ¡no uses `if`s! :muscle:
 

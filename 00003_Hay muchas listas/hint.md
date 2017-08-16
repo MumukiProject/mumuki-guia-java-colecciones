@@ -1,0 +1,1 @@
+Dejamos a tu criterio cómo modelar a los reclamos. Pero tené en cuenta que si los pensás como objetos polimórficos te será mucho más fácil no utilizar `if`. 
