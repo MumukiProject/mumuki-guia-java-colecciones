@@ -31,4 +31,4 @@ class Otras implements List {
 
 <img src="http://www.plantuml.com/plantuml/png/TOvD3e9038NtdA9BF8OBNP5mXZfJaaQcGzg6YCQxysC867JPho_lUonEsc0WgDWSNWK0YuFnayhJTDnoRWa5s2wfy-6BXIoEB5PIIud4y_piCqV068zGAUMUZZnCPReKpsQMI8-wsSNUHH5QD8EpAWxBJ4xTvsthx2rLiTmf_ebj-wwivgjbFxp2ZU_jjIlQJ_C8"> </img>
 
-> ¿Ah, no nos creés? Probá 
+> ¿Ah, no nos creés? Probá tipar ambas variables del ejemplo como `List`. 

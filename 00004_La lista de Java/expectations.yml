@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: "*"
+  inspection: TypesVariableAs:List
+- binding: "*"
+  inspection: Not:TypesVariableAs:LinkedList
+- binding: "*"
+  inspection: Not:TypesVariableAs:ArrayList

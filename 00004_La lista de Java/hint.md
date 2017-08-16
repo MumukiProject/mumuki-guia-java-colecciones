@@ -1,0 +1,1 @@
+¡Cuidado que los parámetros de tipo hay que mantenerlos! Por ejemplo, una lista de compras se tipa como `List<Compra>`.
