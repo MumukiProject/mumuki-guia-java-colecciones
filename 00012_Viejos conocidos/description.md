@@ -14,5 +14,7 @@ chistes.stream().allMatch( chiste -> chiste.esBueno() );
 // ¿Algún chiste es bueno?
 chistes.stream().anyMatch( chiste -> chiste.esBueno() );
 
-// ¿
-chistes.stream().mapToInt( chiste -> chiste.esBueno() ).sum();
+// ¿Cuál es la suma de los largos de todos los chistes?
+chistes.stream().mapToInt( chiste -> chiste.longitud() ).sum();
+```
+
