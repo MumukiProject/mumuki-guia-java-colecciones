@@ -1,10 +1,10 @@
 class Chiste {
   String texto;
-  boolean esBueno;
+  boolean bueno;
   
-  Chiste(String texto, boolean esBueno) {
+  Chiste(String texto, boolean bueno) {
     this.texto = texto;
-    this.esBueno = esBueno;
+    this.bueno = bueno;
   }
   
   int largo() {
@@ -16,6 +16,6 @@ class Chiste {
   }
   
   boolean esBueno() {
-    return esBueno;
+    return bueno;
   }
 }
