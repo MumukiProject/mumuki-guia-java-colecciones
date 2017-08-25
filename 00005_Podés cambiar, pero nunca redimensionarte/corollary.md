@@ -1,3 +1,1 @@
-
-
-Pero entonces, sin son tan intercambiables, ¿por qué hay distintos tipos de listaas
+¡Bien hecho! Pero podemos hacer cosas más interesantes con las listas. ¡Seguínos!
