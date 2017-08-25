@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: Torre
+  inspection: TypesAttributeAs:List
