@@ -5,8 +5,8 @@ class Repertorio {
     this.chistes = chistes;
   }
   
-  int cantidadBuenosChistes() {
-    // ... completá acá ...
+  long cantidadBuenosChistes() {
+    // ... completá acá   ...
   }
   
 
