@@ -1,16 +1,6 @@
-La famosa comediante Sandra se está preparando para una nueva función, y está repasando qué chistes usará. Ya armó una lista tentativa...
+La famosa comediante Sandra se está preparando para una nueva función, y está repasando su repertorio de chistes. Además, cada chiste sabe si `esBueno`. Lo que ahora necesita saber es **cuántos** chistes buenos hay. ¿Podemos ayudarla?
 
-```java
-List<Chiste> chistesParaLaFuncion = ....
-```
-
-...y además de cada chiste sabe si `esBueno`. Lo que ahora necesita saber es **cuántos** chistes buenos hay. ¿Podemos ayudarla? ¡Por supuesto!   
-
-> Probá en la consola las siguientes consultas: 
+> Tratá de implementar el método `cantidadBuenosChistes` que devuelva la cantidad de buenos chistes. Pensá qué herramientas necesitás para resolverlo y si podés resolvelo sólo con lo que vimos hasta ahora. 
 > 
-> * `ム chistes`
-> * `ム chistes.size()`
-> * `ム chistes.stream().filter(chiste -> chiste.esBueno()).count()`
-> * `ム chistes.stream().filter(chiste -> !chiste.esBueno()).count()`
-> 
-> ¿Qué está haciendo cada una?
+> Tomate un minuto y sólo cuándo te rindas, mirá la ayuda :wink:
+

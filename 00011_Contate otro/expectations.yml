@@ -1,0 +1,6 @@
+---
+expectations:
+- inspection: Uses:count
+  binding: "*"
+- binding: "*"
+  inspection: Uses:stream
