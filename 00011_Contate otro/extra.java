@@ -8,7 +8,7 @@ class Chiste {
   }
   
   int largo() {
-    return texto.size();
+    return texto.length();
   }
   
   String getTexto() {
