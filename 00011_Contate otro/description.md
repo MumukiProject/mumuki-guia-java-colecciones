@@ -2,5 +2,5 @@ La famosa comediante Sandra se está preparando para una nueva función, y está
 
 > Tratá de implementar el método `cantidadBuenosChistes` que devuelva la cantidad de buenos chistes. Pensá qué herramientas necesitás para resolverlo y si podés resolvelo sólo con lo que vimos hasta ahora. 
 > 
-> Tomate un minuto y sólo cuándo te rindas, mirá la ayuda :wink:
+> Tomate un minuto y sólo cuándo te rindas, mirá las pistas :wink:
 
