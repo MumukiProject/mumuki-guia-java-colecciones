@@ -18,6 +18,6 @@ Pero claro, si no pensás _redimensionarla_ una vez creada, ésto no es un probl
 > unaTorre.numeroDePiso(comedor); // devuelve 2
 > ```
 > 
-> Implementá lo necesario para que ésto sea posible. 
+> Implementá lo necesario para que ésto sea posible. Asumí que la clase `Piso` ya existe. 
 
 
