@@ -20,7 +20,7 @@ Repertorio repertorio = new Repertorio(Arrays.asList(
     new Chiste("...", true),
     new Chiste("...", true)));
   
-  Assert.assertEquals(1, repertorio.cantidadBuenosChistes());
+  Assert.assertEquals(4, repertorio.cantidadBuenosChistes());
 }
 
 
