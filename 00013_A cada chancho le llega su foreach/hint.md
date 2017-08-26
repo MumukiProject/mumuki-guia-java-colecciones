@@ -1,0 +1,1 @@
+:bulb: No te olvides de que en objetos siempre nos comunicamos a través del envío de mensajes. Así que casi seguro debas declarar algunos métodos nuevos en `Luz` para poder prenderla y apagarla. 
