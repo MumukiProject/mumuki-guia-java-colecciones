@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: esLargo
+  inspection: Uses:stream
+- binding: esLargo
+  inspection: Uses:sum

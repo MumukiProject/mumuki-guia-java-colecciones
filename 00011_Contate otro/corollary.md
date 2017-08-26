@@ -1,1 +1,1 @@
-¡Momento! ¿Que es ese `stream`? ¿Y qué son esas llaves `{` y flechas `->` ?
+¡Momento! ¿Que es ese `stream`? ¿Y qué son esas llaves `{` y flechas `->` ? 
