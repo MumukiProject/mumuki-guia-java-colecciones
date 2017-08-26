@@ -4,3 +4,7 @@ expectations:
   inspection: DefinesMethod:encender
 - binding: ArbolDeNavidad
   inspection: DefinedMethod:apagar
+- binding: encender
+  inspection: Uses:forEach
+- binding: encender
+  inspection: Uses:^forEach
