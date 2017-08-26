@@ -8,3 +8,5 @@ expectations:
   inspection: Uses:forEach
 - binding: apagar
   inspection: Uses:forEach
+- binding: Luz
+  inspection: DeclaresMethod:*
