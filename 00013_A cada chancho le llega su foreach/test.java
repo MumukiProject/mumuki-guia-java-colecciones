@@ -29,7 +29,7 @@ public void apagar_apaga_todas_las_luces() {
   
   ArbolDeNavidad arbol = new ArbolDeNavidad(luces);
   arbol.encender();
-  arbol.apagar()
+  arbol.apagar();
   
   Assert.assertTrue(
     "todas las luces deberían estar apagas después de apagar al árbol", 
