@@ -6,5 +6,5 @@ expectations:
   inspection: DefinedMethod:apagar
 - binding: encender
   inspection: Uses:forEach
-- binding: encender
-  inspection: Uses:^forEach
+- binding: apagar
+  inspection: Uses:forEach
