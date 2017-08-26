@@ -1,0 +1,23 @@
+---
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: 
+manual_evaluation: false
+choices:
+- value: Si no nos importa si habrá repetidos o el orden de los elementos, podemos
+    tipar a una colección como Collection
+  checked: true
+- value: Si nos importa que pueda haber repetidos, podemos tipar a una colección como
+    Set
+  checked: false
+- value: Si nos importa el orden de los elementos, podemos tipar a una colección como
+    List
+  checked: true
+- value: Es mejor tipar a una colección como List que como ArrayList
+  checked: true
+- value: Es mejor tipar a una colección como ArrayList que como List
+  checked: false
