@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: ArbolDeNavidad
+  inspection: DefinesMethod:encender
+- binding: ArbolDeNavidad
+  inspection: DefinedMethod:apagar
