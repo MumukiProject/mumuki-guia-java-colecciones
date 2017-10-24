@@ -1,4 +1,4 @@
-¿Y cómo representamos conjuntos de cosas en Java? En los lenguajes que vimos hasta ahora, esto era fácil: contabamos con listas o vectores (_arrays_), que se veían casi siempre así: 
+¿Y cómo representamos conjuntos de cosas en Java? En los lenguajes que vimos hasta ahora, esto era fácil: contábamos con listas o vectores (_arrays_), que se veían casi siempre así: 
 
 ```ruby
 [ 4, 5, 6 ]
