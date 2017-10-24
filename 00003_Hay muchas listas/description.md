@@ -3,7 +3,7 @@ Como en todo [_shonen_](https://es.wikipedia.org/wiki/Sh%C5%8Dnen), siempre que 
 ```java
 LinkedList<Articulo> listaDeCompras = new LinkedList<>();
 ```
-..., que están pensadas para agregar elementos al principio (de forma similar a las listas de Haskell) mediante `addFirst(unElemento)` o incluso al final, mediante `addLast(unElemento)`.
+... que están pensadas para agregar elementos al principio (de forma similar a las listas de Haskell) mediante `addFirst(unElemento)` o incluso al final, mediante `addLast(unElemento)`.
 
 > A un centro de atención al cliente llegan decenas de reclamos diarios, los cuales se atienden por orden de llegada. La excepción son algunos reclamos prioritarios, que se agregan por delante de todos los otros. 
 > 
