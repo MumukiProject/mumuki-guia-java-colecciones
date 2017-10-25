@@ -1,4 +1,4 @@
-Y ya que estamos hablando de torres y pisos, te presentemos una nueva forma de crear listas que nos va a venir como anillo al dedo :point_up_2:: `Arrays.asList`. Se usa así: 
+Y ya que estamos hablando de torres y pisos, te presentamos una nueva forma de crear listas que nos va a venir como anillo al dedo :point_up_2:: `Arrays.asList`. Se usa así: 
 
 ```java
 // Esto crea una lista de 3 pisos
