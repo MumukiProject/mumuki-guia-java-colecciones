@@ -21,7 +21,7 @@ personas.stream().mapToInt( persona -> persona.cantidadDeHistoriasContadas() ).s
 personas.stream().mapToInt( persona -> persona.cantidadDeHistoriasContadas() ).average().getAsDouble();
 ```
 
-> Sabiendo ésto, agregá al `Repertorio` los métodos: 
+> Sabiendo esto, agregá al `Repertorio` los métodos: 
 > 
->   * `esLargo`: nos dice si la longitud de todos los chistes sumados es mayor a 500
+>   * `esLargo`: nos dice si la longitud de todos los chistes sumados es mayor a 500.
 >   * `todosBuenos`: nos dice si todos los chistes son buenos.  
