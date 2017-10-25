@@ -4,4 +4,4 @@ Lo complicado de los streams es que el tipado estático nos obliga a tener mayor
 
 * `mapToInt`: cuando el mapeo va devolver enteros
 * `mapToDouble`: cuando el mapeo va devolver flotantes
-* `map`: cuando el mapeo va devolver otros tipos de dato
+* `map`: cuando el mapeo va devolver otros tipos de datos
