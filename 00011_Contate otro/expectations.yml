@@ -1,6 +1,6 @@
 ---
 expectations:
-- inspection: Uses:count
-  binding: "*"
+- binding: "*"
+  inspection: Uses:count
 - binding: "*"
   inspection: Uses:stream
