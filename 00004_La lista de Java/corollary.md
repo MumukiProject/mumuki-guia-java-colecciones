@@ -15,11 +15,11 @@ class Torre {
 ...podés instanciarla tanto pasando un `ArrayList` o un `LinkedList`: 
 
 ```java
-LinkedList<Piso> pisos = new LinkedList<>();
+List<Piso> pisos = new LinkedList<>();
 // ...agregamos pisos a la lista
 Torre orthanc = new Torre(pisos);
 
-ArrayList<Piso> masPisos = new LinkedList<>();
+List<Piso> masPisos = new ArrayList<>();
 // ...agregamos pisos a la lista
 Torre  baraddur = new Torre(masPisos);
 ```
