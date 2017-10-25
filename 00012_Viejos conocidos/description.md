@@ -23,5 +23,5 @@ personas.stream().mapToInt( persona -> persona.cantidadDeHistoriasContadas() ).a
 
 > Sabiendo esto, agregá al `Repertorio` los métodos: 
 > 
->   * `esLargo`: nos dice si la longitud de todos los chistes sumados es mayor a 500.
+>   * `esLargo`: nos dice si la longitud de todos los chistes sumados es mayor a 500
 >   * `todosBuenos`: nos dice si todos los chistes son buenos.  
