@@ -7,6 +7,6 @@ Los `Set`s tienen dos características:
 
 ¿No nos crees? 
 
-> Mirá qué pasa cuando tipamos a los magios como `Set` y qué pasa cuando los tipamos como `List`.
+> Mirá qué pasa cuando tipamos a los integrantes del club de no Homeros como `List` y qué pasa cuando los tipamos como `Set`.
 
 
