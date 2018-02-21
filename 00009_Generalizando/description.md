@@ -1,6 +1,6 @@
 <!-- ¿Ves algo en común entre las listas y los sets? ¿No te parecen muy, muy parecidos? Repasemos su interfaz: -->
 
-Efectivamente, la diferentes listas de Java son polimórficas: implementan todos una `interface` llamada `List`, que (un poco simplificada) se ve así:
+Efectivamente, la diferentes listas de Java son polimórficas: implementan todos una `interface` llamada `Collection`, que (un poco simplificada) se ve así:
 
 <!--
 interface Collection {
@@ -29,4 +29,4 @@ interface Otras implements Collection {
 
 Esto quiere decir que si no usas mensajes específicos de `List` o `Set`, son intercambiables.
 
-> Probá tipar ambas variables del ejemplo como `Collection`.
+> Probá tipar ambas variables del ejemplo como ``.
