@@ -1,6 +1,6 @@
-class ClubDeNoHomeros {
+class Homer {
   
-  List<Magio> magio = new List();
+  List<Magio> magios = new List();
   
   void agregarMagio(Magio unMagio) {
     magios.add(unMagio);
