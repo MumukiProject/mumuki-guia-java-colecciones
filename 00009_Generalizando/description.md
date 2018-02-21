@@ -29,4 +29,4 @@ interface Otras implements Collection {
 
 Esto quiere decir que si no usas mensajes específicos de `List` o `Set`, son intercambiables.
 
-> Probá tipar ambas variables del ejemplo como ``.
+> Probá tipar ambas variables del ejemplo como `Collection`.
