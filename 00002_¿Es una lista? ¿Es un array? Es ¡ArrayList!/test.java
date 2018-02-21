@@ -19,6 +19,6 @@ public void si_agregamos_dos_titulos_repetidos_el_tamanio_es_1() {
   Titulo unTitulo = new Titulo();
   alejandria.incorporar(unTitulo);
   alejandria.incorporar(unTitulo);
-  Assert.assertEquals(1, alejandria.tamanio());
+  Assert.assertEquals(, alejandria.tamanio());
 }
 
