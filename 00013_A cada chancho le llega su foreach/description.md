@@ -3,10 +3,10 @@ Y ahora te estarás preguntando: ¿y si quiero hacer algo con cada elemento de l
 Por ejemplo, si los chistes entendieran un mensaje `contar` que tuviera algún tipo de efecto, podríamos escribir lo siguiente:
 
 ```java
-chistes.forEach(chiste -> chister.contar());
+chistes.forEach(chiste -> chiste.contar());
 
 // Otra forma equivalente es...
-chistes.stream().forEach(chiste -> chister.contar());
+chistes.stream().forEach(chiste -> chiste.contar());
 ```
 
 > Veamos si queda claro: implementá en la clase `ArbolDeNavidad` los métodos `encender` y `apagar` que permitan, respectivamente, encender y apagar todas las luces. 
