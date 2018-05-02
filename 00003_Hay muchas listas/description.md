@@ -10,6 +10,12 @@ LinkedList<Articulo> listaDeCompras = new LinkedList<>();
 > Modelá un `CentroDeAtencion` de forma que se pueda hacer: 
 > 
 > ```java
+> ReclamoComun faltaUnaBirome = new ReclamoComun();
+> ReclamoComun elMonitorAndaMal = new ReclamoComun();
+> ReclamoComun incendioEnPlanta = new ReclamoPrioritario();
+> ReclamoComun corteGeneralDeServicio = new ReclamoPrioritario();
+>
+> CentroDeAtencion centro = new CentroDeAtencion();
 > centro.aceptarReclamo(faltaUnaBirome);
 > centro.aceptarReclamo(corteGeneralDeServicio);
 > centro.aceptarReclamo(elMonitorAndaMal);
