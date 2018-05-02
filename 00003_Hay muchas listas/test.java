@@ -1,7 +1,7 @@
 ReclamoComun faltaUnaBirome = new ReclamoComun();
 ReclamoComun elMonitorAndaMal = new ReclamoComun();
-ReclamoComun incendioEnPlanta = new ReclamoPrioritario();
-ReclamoComun corteGeneralDeServicio = new ReclamoPrioritario();
+ReclamoPrioritario incendioEnPlanta = new ReclamoPrioritario();
+ReclamoPrioritario corteGeneralDeServicio = new ReclamoPrioritario();
 CentroDeAtencion centro = new CentroDeAtencion();
 
 @Test 
