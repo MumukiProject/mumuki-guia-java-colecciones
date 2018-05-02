@@ -12,7 +12,7 @@ public void agregarEnOrdenDePrioridad() {
   centro.aceptarReclamo(incendioEnPlanta);
   Assert.assertEquals(
     "no es el orden correcto. Debería ser incendioEnPlanta, corteGeneralDeServicio, faltaUnaBirome, elMontorAndaMal",
-    Arrays.asList(incendioEnPlanta, corteGeneralDeServicio, faltaUnaBirome, elMontorAndaMal), 
+    Arrays.asList(incendioEnPlanta, corteGeneralDeServicio, faltaUnaBirome, elMonitorAndaMal), 
     centro.getReclamos()); 
 }
 
