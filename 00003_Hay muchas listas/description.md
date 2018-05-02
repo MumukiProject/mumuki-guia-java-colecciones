@@ -21,7 +21,7 @@ LinkedList<Articulo> listaDeCompras = new LinkedList<>();
 > centro.aceptarReclamo(elMonitorAndaMal);
 > centro.aceptarReclamo(incendioEnPlanta);
 > centro.getReclamos(); 
-> // devuelve incendioEnPlanta, corteGeneralDeServicio, faltaUnaBirome y elMontorAndaMal, en ese orden
+> // devuelve incendioEnPlanta, corteGeneralDeServicio, faltaUnaBirome y elMonitorAndaMal, en ese orden
 > ```
 > 
 > Y como reto adicional: ¡no uses `if`s! :muscle:
