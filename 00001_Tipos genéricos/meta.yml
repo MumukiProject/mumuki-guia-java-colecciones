@@ -13,3 +13,4 @@ choices:
   checked: true
 - value: Indica los elementos que contendrá el ArrayList
   checked: false
+name: Tipos genéricos
