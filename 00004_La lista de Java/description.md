@@ -33,4 +33,4 @@ class Otras implements List {
 
 Esto significa que si no usas mensajes específicos de `LinkedList` o `ArrayList`, son intercambiables. 
 
-> ¿Ah, no nos creés?  :unamused: Probá tipar ambas variables del ejemplo como `List`. 
+> ¿Ah, no nos creés?  :unamused: Probá tipar `versos` y `anios` como `List` y no usando tipos específicos. 
