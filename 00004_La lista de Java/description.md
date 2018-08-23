@@ -2,7 +2,7 @@
 &dash; _Creo que sí Cerebro, ¡me encanta el rosa de Mumuki!_
 &dash; _Argg, no Pinky... ¡las listas son polimórficas!_ :mouse:
 
-Efectivamente, la diferentes listas de Java son polimórficas: implementan todos una `interface` llamada `List`, que (un poco simplificada) se ve así:
+Efectivamente, las diferentes listas de Java son polimórficas: implementan todos una `interface` llamada `List`, que (un poco simplificada) se ve así:
 
 <!--
 interface List {
