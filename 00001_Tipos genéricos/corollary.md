@@ -22,7 +22,7 @@ Ah, algo más: en realidad no es necesario indicar explícitamente el tipo **en 
 ArrayList<Integer> notas = new ArrayList<>();
 //                                      ^
 //                                      |
-// ...pero en la instanciación podemos omitirlo
+// ...pero en la instanciación podemos omitirlo porque la lista no puede ser de otro tipo.
 
 ```
 
