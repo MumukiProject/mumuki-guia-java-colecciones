@@ -3,10 +3,20 @@ Pero no todo es una lista en el mundo de Java. Otra posible agrupación de eleme
 Los `Set`s tienen dos características:
 
   * **no admiten elementos** repetidos: si tratás de agregar a un mismo elemento dos veces, solo lo hace una;
-  * **no mantienen un orden**: si los recorrés mediante `forEach`, el orden en que los elementos son visitados no sigue ninguna lógica especial. 
+  * **no mantienen un orden**: si los recorrés mediante un mensaje de colecciones (como por ejemplo `forEach`), el orden en que los elementos son visitados no sigue ninguna lógica especial.
 
-¿No nos crees? 
+Por ejemplo:
 
-> Mirá qué pasa cuando tipamos a los integrantes del club de no Homeros como `List` y qué pasa cuando los tipamos como `Set`.
+``` Java
+List<Integer> numeros = Arrays.asList(1,1,3,3,4,4,8,7);
+
+numeros.size(); //Esto devuelve 8
+
+Set<Integer> numerosSinRepetidos = new HashSet(numeros);
+
+numerosSinRepetidos.size(); //Esto devuelve 5, ya que la colección no contiene repetidos
+```
+
+> Modificá el tipo de la colección `integrantes` de manera tal que no tenga repetidos.
 
 
