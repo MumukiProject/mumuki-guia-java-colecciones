@@ -7,7 +7,7 @@ Los `Set`s tienen dos características:
 
 Por ejemplo:
 
-``` Java
+```java
 List<Integer> numeros = Arrays.asList(1,1,3,3,4,4,8,7);
 
 numeros.size(); //Esto devuelve 8
