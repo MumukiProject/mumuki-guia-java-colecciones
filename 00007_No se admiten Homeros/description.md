@@ -17,6 +17,6 @@ Set<Integer> numerosSinRepetidos = new HashSet(numeros);
 numerosSinRepetidos.size(); //Esto devuelve 5, ya que la colección no contiene repetidos
 ```
 
-> Modificá el tipo de la colección `integrantes` de manera tal que no tenga repetidos.
+> Modificá el tipo de `integrantes` de manera tal que no tenga repetidos.
 
 
