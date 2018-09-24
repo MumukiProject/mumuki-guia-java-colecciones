@@ -1,6 +1,4 @@
-Ya se va apagando la fogata pero seguimos teniendo dudas de la gente de la ronda. 
-
-Como por ejemplo:
+Ya se va apagando la fogata pero seguimos teniendo dudas de la gente de la ronda, por ejemplo:
 
 ``` java
 // ¿Cuántas personas viven en Gral. Las Heras?
