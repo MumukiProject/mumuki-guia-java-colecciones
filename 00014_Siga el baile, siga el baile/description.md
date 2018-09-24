@@ -18,5 +18,6 @@ Pero, ¿qué significa el mensaje `collect(Collectors.toList())`?
 Tanto `filter` como `map` devuelven un `Stream`, pero a nosotros nos interesa trabajar con listas. Por eso, en nuestras tres primeras preguntas, llamamos a `collect(Collectors.toList())` para transformar un `Stream<Persona>` en una `List<Persona>`.
 
 > Definí en `Repertorio` los métodos:
+
 > * `chistesLargos`, que nos devuelve los chistes que tengan un `largo` mayor a 50.
 > * `textoDeLosChistes`, que nos devuelve una lista con los textos de cada chiste.
