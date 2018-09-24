@@ -1,7 +1,7 @@
 ---
 expectations:
 - binding: Repertorio
-  inspection: DeclaresClass:granRepertorio
+  inspection: DeclaresMethod:granRepertorio
 - binding: granRepertorio
   inspection: Uses:stream
 - binding: granRepertorio
