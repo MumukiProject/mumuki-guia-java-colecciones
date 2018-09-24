@@ -19,4 +19,4 @@ Veamos que hacen estos mensajes:
 * `sum` nos devuelve la sumatoria de un `Stream` compuesto de números;
 * `average` nos dice un promedio, y `getAsDouble` convierte este valor al tipo `double`.
 
-> Definí el método `granRepertorio` en la clase `Repertorio` que nos dice si la longitud de todos los chistes sumados es mayor a 200.
+> Definí el método `granRepertorio` en la clase `Repertorio` que nos dice si la longitud de todos los chistes sumados es mayor a 200. 
