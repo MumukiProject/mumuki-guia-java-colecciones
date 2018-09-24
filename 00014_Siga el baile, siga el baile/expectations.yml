@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: Repertorio
+  inspection: DeclaresMethod:chistesLargos
+- binding: Repertorio
+  inspection: DeclaresMethod:textoDeLosChistes

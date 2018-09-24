@@ -1,6 +1,6 @@
 ---
 expectations:
-- binding: esLargo
-  inspection: Uses:stream
-- binding: esLargo
-  inspection: Uses:sum
+- binding: Repertorio
+  inspection: DeclaresMethod:todosBuenos
+- binding: todosBuenos
+  inspection: TypesReturnAs:boolean

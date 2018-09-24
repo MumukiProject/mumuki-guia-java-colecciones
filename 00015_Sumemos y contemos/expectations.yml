@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: Repertorio
+  inspection: DeclaresClass:granRepertorio
+- binding: granRepertorio
+  inspection: Uses:stream
+- binding: granRepertorio
+  inspection: Uses:sum
