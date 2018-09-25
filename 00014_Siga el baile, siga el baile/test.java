@@ -2,7 +2,7 @@ Repertorio repertorio;
 Chiste chisteLargo;
 Chiste chisteCorto;
 List<String> textoChistes;
-List<String> chistesLargos;
+//List<String> chistesLargos;
 
 @Before 
 public void before() {
