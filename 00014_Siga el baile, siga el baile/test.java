@@ -40,7 +40,7 @@ public void textoDeLosChistes_me_dice_el_texto_de_cada_chiste() {
 
 @Test
 public void chistesLargos_devuelve_los_chistes_con_largo_mayor_a_50() {
-  */Collections.sort(chistesLargos);
+  /*Collections.sort(chistesLargos);
   List<Chiste> chistes = repertorio.chistesLargos();
   List<String> chistesParaTestar = repertorio.chistesLargos().stream().map(chiste -> chiste.getTexto()).collect(Collectors.toList());
   Assert.assertEquals(chistesLargos, chistesParaTestar);*/
