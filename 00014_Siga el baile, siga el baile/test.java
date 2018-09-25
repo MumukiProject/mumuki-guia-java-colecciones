@@ -14,12 +14,12 @@ public void before() {
     new Chiste("Había una vez un hombre tan pequeño que se subió encima de una canica y dijo: ¡El mundo es mío!", true),
     chisteCorto));
     
-    textoChistes = new ArrayList<String>(
+    /*textoChistes = new ArrayList<String>(
     "Había un perro llamado Pafuera. Un día le gritaron ¡Adentro Pafuera!, y el perro se volvió loco...",
     "¿Cómo se despiden los químicos? Ácido un placer.",
     "¿Qué le dice una piedra a otra piedra? La vida es dura.",
     "Había una vez un hombre tan pequeño que se subió encima de una canica y dijo: ¡El mundo es mío!",
-    "¿Qué planeta va después de Marte? Miércole.");
+    "¿Qué planeta va después de Marte? Miércole.");*/
 }
 
 @Test
