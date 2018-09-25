@@ -14,12 +14,12 @@ public void before() {
     new Chiste("Había una vez un hombre tan pequeño que se subió encima de una canica y dijo: ¡El mundo es mío!", true),
     chisteCorto));
     
-    /*textoChistes = new ArrayList<String>();
+    textoChistes = new ArrayList<String>();
     textoChistes.add("Había un perro llamado Pafuera. Un día le gritaron ¡Adentro Pafuera!, y el perro se volvió loco...");
     textoChistes.add("¿Cómo se despiden los químicos? Ácido un placer.");
     textoChistes.add("¿Qué le dice una piedra a otra piedra? La vida es dura.");
     textoChistes.add("Había una vez un hombre tan pequeño que se subió encima de una canica y dijo: ¡El mundo es mío!");
-    textoChistes.add("¿Qué planeta va después de Marte? Miércole.");*/
+    textoChistes.add("¿Qué planeta va después de Marte? Miércole.");
 }
 
 @Test
