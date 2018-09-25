@@ -34,8 +34,6 @@ public void textoDeLosChistes_me_dice_el_texto_de_cada_chiste() {
     List<String> textos = repertorio.textoDeLosChistes();
     Collections.sort(textos);
     Assert.assertEquals(textoChistes, textos);
-    /*Assert.assertTrue(repertorio.textoDeLosChistes().contains("¿Cómo se despiden los químicos? Ácido un placer."));
-    Assert.assertEquals(5, repertorio.textoDeLosChistes().size());*/
 }
 
 @Test
@@ -45,7 +43,4 @@ public void chistesLargos_devuelve_los_chistes_con_largo_mayor_a_50() {
   List<String> chistesParaTestear = repertorio.chistesLargos().stream().map(chiste -> chiste.getTexto()).collect(Collectors.toList());
   Collections.sort(chistesParaTestear);
   Assert.assertEquals(chistesLargos, chistesParaTestear);
-	/*Assert.assertTrue(repertorio.chistesLargos().contains(chisteLargo));
-	Assert.assertFalse(repertorio.chistesLargos().contains(chisteCorto));
-  Assert.assertEquals(3, repertorio.chistesLargos().size());*/
 }
