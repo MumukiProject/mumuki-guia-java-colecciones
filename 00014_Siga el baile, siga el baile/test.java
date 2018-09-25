@@ -22,10 +22,10 @@ public void before() {
     textoChistes.add("Había una vez un hombre tan pequeño que se subió encima de una canica y dijo: ¡El mundo es mío!");
     textoChistes.add("¿Qué planeta va después de Marte? Miércole.");
     
-    chistesLargos = new ArrayList<String>();
+    /*chistesLargos = new ArrayList<String>();
     chistesLargos.add("Había un perro llamado Pafuera. Un día le gritaron ¡Adentro Pafuera!, y el perro se volvió loco...");
     chistesLargos.add("¿Qué le dice una piedra a otra piedra? La vida es dura.");
-    chistesLargos.add("Había una vez un hombre tan pequeño que se subió encima de una canica y dijo: ¡El mundo es mío!");
+    chistesLargos.add("Había una vez un hombre tan pequeño que se subió encima de una canica y dijo: ¡El mundo es mío!");*/
 }
 
 @Test
