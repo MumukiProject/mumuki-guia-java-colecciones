@@ -14,21 +14,21 @@ public void before() {
     new Chiste("Había una vez un hombre tan pequeño que se subió encima de una canica y dijo: ¡El mundo es mío!", true),
     chisteCorto));
     
-    textoChistes = new ArrayList<String>();
+    /*textoChistes = new ArrayList<String>();
     textoChistes.add("Había un perro llamado Pafuera. Un día le gritaron ¡Adentro Pafuera!, y el perro se volvió loco...");
     textoChistes.add("¿Cómo se despiden los químicos? Ácido un placer.");
     textoChistes.add("¿Qué le dice una piedra a otra piedra? La vida es dura.");
     textoChistes.add("Había una vez un hombre tan pequeño que se subió encima de una canica y dijo: ¡El mundo es mío!");
-    textoChistes.add("¿Qué planeta va después de Marte? Miércole.");
+    textoChistes.add("¿Qué planeta va después de Marte? Miércole.");*/
 }
 
 @Test
 public void textoDeLosChistes_me_dice_el_texto_de_cada_chiste() {
-    Collections.sort(repertorio.textoDeLosChistes());
+    /*Collections.sort(repertorio.textoDeLosChistes());
     Collections.sort(textoChistes);
-    AssertEquals(textoChistes, repertorio.textoDeLosChistes());
-    //Assert.assertTrue(repertorio.textoDeLosChistes().contains("¿Cómo se despiden los químicos? Ácido un placer."));
-    //Assert.assertEquals(5, repertorio.textoDeLosChistes().size());
+    AssertEquals(textoChistes, repertorio.textoDeLosChistes());*/
+    Assert.assertTrue(repertorio.textoDeLosChistes().contains("¿Cómo se despiden los químicos? Ácido un placer."));
+    Assert.assertEquals(5, repertorio.textoDeLosChistes().size());
 }
 
 @Test
