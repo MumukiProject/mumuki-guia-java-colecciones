@@ -24,9 +24,9 @@ public void before() {
 
 @Test
 public void textoDeLosChistes_me_dice_el_texto_de_cada_chiste() {
-    Assert.assertEquals(Collections.sort(textoChistes), Collections.sort(repertorio.textoDeLosChistes()));
-    /*Assert.assertTrue(repertorio.textoDeLosChistes().contains("¿Cómo se despiden los químicos? Ácido un placer."));
-    Assert.assertEquals(5, repertorio.textoDeLosChistes().size());*/
+    //Assert.assertEquals(Collections.sort(textoChistes), Collections.sort(repertorio.textoDeLosChistes()));
+    Assert.assertTrue(repertorio.textoDeLosChistes().contains("¿Cómo se despiden los químicos? Ácido un placer."));
+    Assert.assertEquals(5, repertorio.textoDeLosChistes().size());
 }
 
 @Test
