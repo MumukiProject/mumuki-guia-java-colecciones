@@ -7,17 +7,18 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: Si no nos importa si habrá repetidos o el orden de los elementos, podemos
-    tipar a una colección como Collection
-  checked: true
-- value: Si nos importa que pueda haber repetidos, podemos tipar a una colección como
+- value: Para que en una colección no haya elementos repetidos hay que tiparla como
     Set
-  checked: false
-- value: Si nos importa el orden de los elementos, podemos tipar a una colección como
-    List
   checked: true
-- value: Es mejor tipar a una colección como List que como ArrayList
-  checked: true
-- value: Es mejor tipar a una colección como ArrayList que como List
+- value: Un ArrayList permite agregar elementos tanto al principio como al final
   checked: false
+- value: Tanto List como Collection son interfaces
+  checked: true
+- value: Tanto ArrayList como LinkedList son colecciones que tienen un orden
+  checked: true
+- value: Los mensajes map y filter devuelven una List
+  checked: false
+- value: Para poder filtrar los elementos de una lista, debemos transformarla antes
+    en un Stream
+  checked: true
 name: Repaso rápido
