@@ -1,14 +1,20 @@
 ---
 expectations:
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: UsesStaticPolymorphism
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: Not:UsesIf
-- binding: CentroDeAtencion
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: CentroDeAtencion
   inspection: DeclaresMethod:aceptarReclamo
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: Uses:addFirst
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: Uses:addLast
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: Not:UsesMethodOverloading

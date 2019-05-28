@@ -7,18 +7,24 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: Para que en una colección no haya elementos repetidos hay que tiparla como
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Para que en una colección no haya elementos repetidos hay que tiparla como
     Set
   checked: true
-- value: Un ArrayList permite agregar elementos tanto al principio como al final
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Un ArrayList permite agregar elementos tanto al principio como al final
   checked: false
-- value: Tanto List como Collection son interfaces
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Tanto List como Collection son interfaces
   checked: true
-- value: Tanto ArrayList como LinkedList son colecciones que tienen un orden
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Tanto ArrayList como LinkedList son colecciones que tienen un orden
   checked: true
-- value: Los mensajes map y filter devuelven una List
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Los mensajes map y filter devuelven una List
   checked: false
-- value: Para poder filtrar los elementos de una lista, debemos transformarla antes
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Para poder filtrar los elementos de una lista, debemos transformarla antes
     en un Stream
   checked: true
 name: Repaso rápido

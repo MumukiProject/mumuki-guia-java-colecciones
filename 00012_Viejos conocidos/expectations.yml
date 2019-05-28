@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: Repertorio
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Repertorio
   inspection: DeclaresMethod:todosBuenos
-- binding: todosBuenos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: todosBuenos
   inspection: TypesReturnAs:boolean

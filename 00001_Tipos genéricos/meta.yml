@@ -7,10 +7,13 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: Indica el número de elementos que contendrá el ArrayList
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Indica el número de elementos que contendrá el ArrayList
   checked: false
-- value: Indica el tipo de los elementos que contendrá el ArrayList
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Indica el tipo de los elementos que contendrá el ArrayList
   checked: true
-- value: Indica los elementos que contendrá el ArrayList
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Indica los elementos que contendrá el ArrayList
   checked: false
 name: Tipos genéricos

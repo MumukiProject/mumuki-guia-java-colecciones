@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: Repertorio
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Repertorio
   inspection: DeclaresMethod:granRepertorio
-- binding: granRepertorio
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: granRepertorio
   inspection: Uses:stream
-- binding: granRepertorio
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: granRepertorio
   inspection: Uses:sum

@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: Repertorio
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Repertorio
   inspection: DeclaresMethod:chistesLargos
-- binding: Repertorio
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Repertorio
   inspection: DeclaresMethod:textoDeLosChistes
