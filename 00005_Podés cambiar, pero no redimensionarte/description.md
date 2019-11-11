@@ -14,8 +14,8 @@ Pero claro, si no pensás _redimensionarla_ una vez creada, ésto no es un probl
 > ```java
 > Torre unaTorre = new Torre(Arrays.asList(recepcion, comedor, mirador);
 > unaTorre.altura(); // devuelve 3
-> unaTorre.numeroDePiso(recepcion); // devuelve 1
-> unaTorre.numeroDePiso(comedor); // devuelve 2
+> unaTorre.numeroDePiso(recepcion); // devuelve 0 porque está en la planta baja
+> unaTorre.numeroDePiso(comedor); // devuelve 1
 > ```
 > 
 > Implementá lo necesario para que ésto sea posible. Asumí que la clase `Piso` ya existe. 
