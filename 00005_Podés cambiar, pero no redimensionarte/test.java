@@ -23,5 +23,5 @@ public void si_la_torre_tiene_2_pisos_su_altura_es_2() {
 @Test
 public void el_primer_piso_es_el_1() {
   Torre torre = new Torre(Arrays.asList(recepcion, comedor));
-  Assert.assertEquals(0, torre.numeroDePiso(recepcion));
+  Assert.assertEquals(1, torre.numeroDePiso(recepcion));
 }
